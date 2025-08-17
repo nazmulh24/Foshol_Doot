@@ -45,7 +45,7 @@ const InfoCard = ({ title, description, imageAlt, imageUrl, children }) => {
           <span className="text-gray-800 font-semibold cursor-pointer hover:underline hover:text-red-600">
             Save for Later
           </span>
-          <div className="w-8 h-8 md:w-10 md:h-10 bg-gray-700 rounded-lg flex items-center justify-center cursor-pointer transform transition-transform duration-200 hover:scale-110">
+          <div className="w-8 h-8 md:w-10 md:h-10 bg-gray-700 rounded-xl flex items-center justify-center cursor-pointer transform transition-transform duration-200 hover:scale-110">
             <HiOutlineDownload className="w-6 h-6 text-white hover:text-green-400" />
           </div>
         </div>
@@ -54,7 +54,7 @@ const InfoCard = ({ title, description, imageAlt, imageUrl, children }) => {
   );
 };
 
-const Test2 = () => {
+const GuidanceDetails = () => {
   return (
     <div className="bg-green-50 min-h-screen p-4 md:p-8">
       <div className="max-w-4xl mx-auto">
@@ -64,7 +64,7 @@ const Test2 = () => {
 
         {/* Fertilizer Type Section */}
         <div className="mb-6 md:mb-8">
-          <div className="inline-block border-2 border-green-500 rounded-lg px-4 py-2 mb-4">
+          <div className="inline-block border-2 border-green-500 rounded-xl px-4 py-2 mb-4">
             <h2 className="text-xl font-bold text-gray-800">Fertilizer Type</h2>
           </div>
           <InfoCard
@@ -93,7 +93,7 @@ const Test2 = () => {
 
         {/* Timeline Section */}
         <div className="mb-6 md:mb-8">
-          <div className="inline-block border-2 border-green-500 rounded-lg px-4 py-2 mb-4">
+          <div className="inline-block border-2 border-green-500 rounded-xl px-4 py-2 mb-4">
             <h2 className="text-xl font-bold text-gray-800">Timeline</h2>
           </div>
           <InfoCard
@@ -119,4 +119,4 @@ const Test2 = () => {
   );
 };
 
-export default Test2;
+export default GuidanceDetails;

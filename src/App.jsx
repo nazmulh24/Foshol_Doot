@@ -6,7 +6,7 @@ import FertilizerGuidance from "./pages/FertilizerGuidance";
 import DiseaseDetection from "./pages/DiseaseDetection";
 import AgriGPT from "./pages/AgriGPT";
 import RecommendedCrops from "./pages/RecommendedCrops";
-import SelectedCrops from "./pages/SelectedCrops";
+import GuidanceDetails from "./pages/GuidanceDetails";
 import DiseasesCrops from "./pages/DiseasesCrops";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <Route path="/crop-recommendation" element={<CropRecommendation />} />
         <Route path="/recommended-crops" element={<RecommendedCrops />} />
         <Route path="/fertilizer-guidance" element={<FertilizerGuidance />} />
-        <Route path="/guidance-details" element={<SelectedCrops />} />
+        <Route path="/guidance-details" element={<GuidanceDetails />} />
         <Route path="/disease-detection" element={<DiseaseDetection />} />
         <Route path="/disease" element={<DiseasesCrops />} />
 
