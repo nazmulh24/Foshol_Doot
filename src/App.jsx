@@ -16,8 +16,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/crop-recommendation" element={<CropRecommendation />} />
         <Route path="/recommended-crops" element={<RecommendedCrops />} />
-        <Route path="/selected-crops" element={<SelectedCrops />} />
         <Route path="/fertilizer-guidance" element={<FertilizerGuidance />} />
+        <Route path="/guidance-details" element={<SelectedCrops />} />
         <Route path="/disease-detection" element={<DiseaseDetection />} />
         <Route path="/disease" element={<DiseasesCrops />} />
 
