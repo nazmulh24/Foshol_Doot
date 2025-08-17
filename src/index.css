@@ -11,7 +11,7 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
-  
+
   .line-clamp-4 {
     display: -webkit-box;
     -webkit-line-clamp: 4;
@@ -19,30 +19,35 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
-  
+
   .glass-effect {
     background: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.18);
   }
-  
+
   .gradient-text {
     background: linear-gradient(135deg, #10b981, #059669);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
-  
+
   .shadow-3xl {
     box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.25);
   }
-  
+
   .animate-float {
     animation: float 3s ease-in-out infinite;
   }
-  
+
   .animate-shimmer {
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.4),
+      transparent
+    );
     background-size: 200% 100%;
     animation: shimmer 2s infinite;
   }
@@ -52,37 +57,39 @@
   html {
     scroll-behavior: smooth;
   }
-  
+
   body {
-    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, sans-serif;
     line-height: 1.6;
   }
-  
+
   * {
     scrollbar-width: thin;
     scrollbar-color: #10b981 #f1f5f9;
   }
-  
+
   *::-webkit-scrollbar {
     width: 6px;
   }
-  
+
   *::-webkit-scrollbar-track {
     background: #f1f5f9;
   }
-  
+
   *::-webkit-scrollbar-thumb {
     background: linear-gradient(135deg, #10b981, #059669);
     border-radius: 3px;
   }
-  
+
   *::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(135deg, #059669, #047857);
   }
 }
 
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0px);
   }
   50% {
@@ -105,11 +112,11 @@
     font-size: 2.5rem;
     line-height: 1.2;
   }
-  
+
   .service-card {
     min-height: 240px;
   }
-  
+
   .testimonial-card {
     padding: 1.5rem;
   }
